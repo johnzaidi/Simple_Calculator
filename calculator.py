@@ -37,5 +37,8 @@ while continuation=="yes":
         multiply(a,b)
     elif choice == 4:
         divide(a,b)
-    continuation=(input("continue?\nenter yes or no:"))
+    continuation=input("continue?\nenter yes or no:").lower()
 print("farewell my nigga")
+input("Press any button to close this window.")
+
+
