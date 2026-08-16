@@ -1,5 +1,5 @@
 import datetime
-print(datetime.date(2018,5,22))
+print(datetime.date.today())
 print("Welcome to zaidi calculator")
 def add(a,b):
     sum=a+b
